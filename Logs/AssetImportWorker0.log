@@ -1,0 +1,611 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Core' Language: 'en' Physical Memory: 16111 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/safin/OneDrive/Documents/GitHub/MyProj
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50063
+Successfully changed project path to: C:/Users/safin/OneDrive/Documents/GitHub/MyProj
+C:/Users/safin/OneDrive/Documents/GitHub/MyProj
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/safin/OneDrive/Documents/GitHub/MyProj/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3964 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002080 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.9 MB.
+System memory in use after: 160.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4127.
+Total: 3.624400 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.140300 ms MarkObjects: 3.070600 ms  DeleteObjects: 0.153300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ARF-samples/Materials/PlacedCubeMaterial.mat
+  artifactKey: Guid(9b5d75722d424804fa0c0efaa228c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/PlacedCubeMaterial.mat using Guid(9b5d75722d424804fa0c0efaa228c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6765fe07697484ba1b4fb2cee8ca74') in 0.233525 seconds 
+  Import took 0.238821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/ARF-samples/Materials/TriColor3.mat
+  artifactKey: Guid(195f1608a339344c6a1ce623bfeadf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/TriColor3.mat using Guid(195f1608a339344c6a1ce623bfeadf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f3bc0bc620b8b83c279c08c09fbfdb') in 0.021230 seconds 
+  Import took 0.027913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ARF-samples/Materials
+  artifactKey: Guid(d3fceddebb6a1db4ca80bb2be0e0b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials using Guid(d3fceddebb6a1db4ca80bb2be0e0b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b3071ec629e3134b842970444931b4') in 0.005301 seconds 
+  Import took 0.010821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/ARF-samples/Materials/TriColor1.mat
+  artifactKey: Guid(2fcadc4d141624ca58d14d856ab23dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/TriColor1.mat using Guid(2fcadc4d141624ca58d14d856ab23dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc3901dc1cd0bf4a1751f300d230d53') in 0.016289 seconds 
+  Import took 0.022262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/ARF-samples/Materials/PlaneMaterial.mat
+  artifactKey: Guid(da88c2617acace440ac7cacccc82cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/PlaneMaterial.mat using Guid(da88c2617acace440ac7cacccc82cb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f7592e789638fb04ba3ff5ab579f7f') in 0.013964 seconds 
+  Import took 0.020349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ARF-samples/Materials/NormalOverlayMaterial.mat
+  artifactKey: Guid(e01257fbb05e84833a5beb1792546158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/NormalOverlayMaterial.mat using Guid(e01257fbb05e84833a5beb1792546158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3df620cd22fb8acd5eebec10676ea3') in 0.014154 seconds 
+  Import took 0.019261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/ARF-samples/Materials/ZMaterial.mat
+  artifactKey: Guid(d80c1a202911a4a37a3da59992876dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/ZMaterial.mat using Guid(d80c1a202911a4a37a3da59992876dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ce73dab2ccaff30aee31f3770f5ad2') in 0.012655 seconds 
+  Import took 0.018274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ARF-samples/Materials/TriColor2.mat
+  artifactKey: Guid(38c71751d47234d60b8eb53487816d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/TriColor2.mat using Guid(38c71751d47234d60b8eb53487816d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52abe654bd60e5b02d70637b10d6143') in 0.014002 seconds 
+  Import took 0.020477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/ARF-samples/Materials/NormalMaterial.mat
+  artifactKey: Guid(90f5d90ec992f4983aea366642a31d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/NormalMaterial.mat using Guid(90f5d90ec992f4983aea366642a31d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c8ae223835dd6a7421dc3cee83f175') in 0.013800 seconds 
+  Import took 0.018896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/ARF-samples/Materials/XMaterial.mat
+  artifactKey: Guid(1d85e66239f5b41eb87246c413157610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/XMaterial.mat using Guid(1d85e66239f5b41eb87246c413157610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470a919f014767ea5e2ac86ea8359107') in 0.014771 seconds 
+  Import took 0.021447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ARF-samples/Materials/Transparent.mat
+  artifactKey: Guid(f77b8a8d8cced4e5a9bc146b258b3b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/Transparent.mat using Guid(f77b8a8d8cced4e5a9bc146b258b3b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267012982529c5c9ecc74e4e99c383aa') in 0.014789 seconds 
+  Import took 0.020672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/ARF-samples/Materials/DepthGradientMaterial.mat
+  artifactKey: Guid(1822b099f6c09434b97c31e70184ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/DepthGradientMaterial.mat using Guid(1822b099f6c09434b97c31e70184ff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f082dadf4fc8aaa52ae4f0a79a4e0f') in 0.015680 seconds 
+  Import took 0.022187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/ARF-samples/Materials/JointLineMaterial.mat
+  artifactKey: Guid(7c57bb7614d2746e4a2cc322b1174d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/JointLineMaterial.mat using Guid(7c57bb7614d2746e4a2cc322b1174d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdced6e9c2cdda941d27d65921b03ed8') in 0.015365 seconds 
+  Import took 0.020303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ARF-samples/Materials/FeaturePointMaterial.mat
+  artifactKey: Guid(0eb8a0cec82ab439bbe55783f6711ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/FeaturePointMaterial.mat using Guid(0eb8a0cec82ab439bbe55783f6711ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950d72bd825037aa2ea7502bd1bc5234') in 0.015195 seconds 
+  Import took 0.020020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/ARF-samples/Materials/OcclusionMaterial.mat
+  artifactKey: Guid(5f9b7305df0ee40a29ad828b1a5743f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/OcclusionMaterial.mat using Guid(5f9b7305df0ee40a29ad828b1a5743f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364859d77236043cf38267ef179eeebd') in 0.014653 seconds 
+  Import took 0.019941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/ARF-samples/Materials/GrayFloor.mat
+  artifactKey: Guid(b5a993a5dfcd7414586193432deeac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/GrayFloor.mat using Guid(b5a993a5dfcd7414586193432deeac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1668197bf52b704f998419c616ba7d') in 0.019784 seconds 
+  Import took 0.025415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/ARF-samples/Materials/YMaterial.mat
+  artifactKey: Guid(e62de97909a2840f786ce710f802cf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/YMaterial.mat using Guid(e62de97909a2840f786ce710f802cf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd6fc21188e1eda4b71c35529ada0d') in 0.014358 seconds 
+  Import took 0.019855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/ARF-samples/Materials/HumanStencil.mat
+  artifactKey: Guid(c0be8d44aefaa41a79f40f503f63619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/HumanStencil.mat using Guid(c0be8d44aefaa41a79f40f503f63619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37653b42e361041070de606f9e80ddbb') in 0.012802 seconds 
+  Import took 0.017968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/ARF-samples/Materials/EyeLaserMaterial.mat
+  artifactKey: Guid(b0a46feb4b70f43f88f599f902d3a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/EyeLaserMaterial.mat using Guid(b0a46feb4b70f43f88f599f902d3a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648e21a3b10723e70c8a7edba8c10921') in 0.014852 seconds 
+  Import took 0.019883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ARF-samples/Materials/sloth_all_1001_AlbedoTransparency.mat
+  artifactKey: Guid(0eafc0c8e166e4cd2b0f64b71fda0c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/sloth_all_1001_AlbedoTransparency.mat using Guid(0eafc0c8e166e4cd2b0f64b71fda0c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a3d5a91d0c0137aac537fd07660444') in 0.881199 seconds 
+  Import took 0.891010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/ARF-samples/Materials/Checkered.mat
+  artifactKey: Guid(1bf33998c68d4e94fa9d3bcdcb78c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/Checkered.mat using Guid(1bf33998c68d4e94fa9d3bcdcb78c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddc685e3b790622964eb335f53246d2') in 0.017479 seconds 
+  Import took 0.027177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/ARF-samples/Materials/FeatheredPlaneMaterial.mat
+  artifactKey: Guid(23e2748d52724824fb92be95f957d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/FeatheredPlaneMaterial.mat using Guid(23e2748d52724824fb92be95f957d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d26272f67a55fc508990aa1b97c1631') in 0.020373 seconds 
+  Import took 0.026381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/ARF-samples/Materials/ReflectiveMaterial.mat
+  artifactKey: Guid(9746dcb3278da420389ba0184f139ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Materials/ReflectiveMaterial.mat using Guid(9746dcb3278da420389ba0184f139ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f09e5c324583d26f586a6137e2f0d91') in 0.014319 seconds 
+  Import took 0.020431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.425452 seconds.
+  path: Assets/ARF-samples/Meshes/sloth_head_blendshapes5.fbx
+  artifactKey: Guid(63ae12abc50414d5c882dbe18f6a820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Meshes/sloth_head_blendshapes5.fbx using Guid(63ae12abc50414d5c882dbe18f6a820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d79c0481a4539f080f7a7a9eb46e2e4') in 0.797189 seconds 
+  Import took 0.807148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/ARF-samples/Meshes
+  artifactKey: Guid(7ae3334d5291f440ca4d8c1f4a3e7d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Meshes using Guid(7ae3334d5291f440ca4d8c1f4a3e7d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a49a80e0ad01b736635bf9e0a16cf25') in 0.006446 seconds 
+  Import took 0.011953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.837360 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Eye Laser Visualizer.prefab
+  artifactKey: Guid(2d19c8a450c61438da3cc9a9d6468c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Eye Laser Visualizer.prefab using Guid(2d19c8a450c61438da3cc9a9d6468c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508ed43dca2a3a698b3a5d466115e207') in 0.015800 seconds 
+  Import took 0.022249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/ARF-samples/Prefabs/LightDirectionArrow.prefab
+  artifactKey: Guid(c8395de59a6d145749f00299c3bbcb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/LightDirectionArrow.prefab using Guid(c8395de59a6d145749f00299c3bbcb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38564018c11d7877f8e2f94694d9444') in 0.015716 seconds 
+  Import took 0.020962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ARF-samples/Prefabs/FixationRayPrefab.prefab
+  artifactKey: Guid(8339cb70cc6014347bd14cfea9e60601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/FixationRayPrefab.prefab using Guid(8339cb70cc6014347bd14cfea9e60601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb76ccfba030a7067e30c46ec795fed') in 0.014374 seconds 
+  Import took 0.019116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/ARF-samples/Prefabs/JointLineRenderer.prefab
+  artifactKey: Guid(a52b49b9ddc724c198fda9937a7fced0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/JointLineRenderer.prefab using Guid(a52b49b9ddc724c198fda9937a7fced0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fa1cb9efb1e9e4228016e621a6a688') in 0.014713 seconds 
+  Import took 0.019350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Fixation Point Visualizer.prefab
+  artifactKey: Guid(2e22b50ffeab1490fa3a0694f0e31317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Fixation Point Visualizer.prefab using Guid(2e22b50ffeab1490fa3a0694f0e31317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0a0011dfea509146fe571e4dfa836b') in 0.027471 seconds 
+  Import took 0.033463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/ARF-samples/Prefabs/FaceMeshPrefab.prefab
+  artifactKey: Guid(92e70fac81673432784c18cf08f10366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/FaceMeshPrefab.prefab using Guid(92e70fac81673432784c18cf08f10366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2b4180b32d6700284053c68c985851') in 0.011199 seconds 
+  Import took 0.016692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/ARF-samples/Prefabs/FixationReticle.prefab
+  artifactKey: Guid(a14db57d4a388438285ebba933990962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/FixationReticle.prefab using Guid(a14db57d4a388438285ebba933990962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9afbf51d518a0c8c7c939c7a9da58a5') in 0.023022 seconds 
+  Import took 0.028166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Feathered Plane Fade.prefab
+  artifactKey: Guid(617b10198100d44078c5e70d97423117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Feathered Plane Fade.prefab using Guid(617b10198100d44078c5e70d97423117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6e54f8737c048f6cc5436369fccf98') in 0.009636 seconds 
+  Import took 0.014658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/ARF-samples/Prefabs/ReflectiveSphere.prefab
+  artifactKey: Guid(cc7ced85c210d4c2eb70bc117e21b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/ReflectiveSphere.prefab using Guid(cc7ced85c210d4c2eb70bc117e21b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0dc96d16697127c7e6c8ea4ff30c57') in 0.014962 seconds 
+  Import took 0.020056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ARF-samples/Prefabs/Large TriAxes.prefab
+  artifactKey: Guid(d70206263780844d1ac3e64fe264d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/Large TriAxes.prefab using Guid(d70206263780844d1ac3e64fe264d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c94eddd0490dcc782a138eb07149a41') in 0.014866 seconds 
+  Import took 0.019819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Eye Pose Visualizer.prefab
+  artifactKey: Guid(08580be01ddd241d19a72e19bc997f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Eye Pose Visualizer.prefab using Guid(08580be01ddd241d19a72e19bc997f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b62a8326ffcf03b1f01168c9c8ffb29') in 0.010513 seconds 
+  Import took 0.015759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Placed Sphere.prefab
+  artifactKey: Guid(2e80f2e009b5347149ebaae6d96ddfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Placed Sphere.prefab using Guid(2e80f2e009b5347149ebaae6d96ddfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4309b053e5ba558baf14e97d916dd805') in 0.014630 seconds 
+  Import took 0.019582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ARF-samples/Prefabs/TriAxes.prefab
+  artifactKey: Guid(48e43bbe3af404986bbdc5a552e5fefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/TriAxes.prefab using Guid(48e43bbe3af404986bbdc5a552e5fefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cd8b65fb547f32cf6492d18289681b') in 0.015172 seconds 
+  Import took 0.020746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/ARF-samples/Prefabs/EnvironmentProbePrefab.prefab
+  artifactKey: Guid(5cfb9441b668a4dc1a2f114e6d072394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/EnvironmentProbePrefab.prefab using Guid(5cfb9441b668a4dc1a2f114e6d072394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef570e3ee5704a5a1030432c8381f17') in 0.015915 seconds 
+  Import took 0.021843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Reference Point Axes.prefab
+  artifactKey: Guid(7ab75e6d1363a42c883343aef7bc3596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Reference Point Axes.prefab using Guid(7ab75e6d1363a42c883343aef7bc3596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fe2b9094c230cb52e48a537d416d59') in 0.015320 seconds 
+  Import took 0.020124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Feathered Plane.prefab
+  artifactKey: Guid(d16dd8da7e4ccbe42b1b4a344a72ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Feathered Plane.prefab using Guid(d16dd8da7e4ccbe42b1b4a344a72ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5556ddf90cbc4a398f1d3a0808849e58') in 0.009081 seconds 
+  Import took 0.014140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/ARF-samples/Prefabs/SlothHead.prefab
+  artifactKey: Guid(a5e76df5cbfd54a06abdaf52046adbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/SlothHead.prefab using Guid(a5e76df5cbfd54a06abdaf52046adbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1234b5d116c6842c9179ad071a6f30b') in 0.592546 seconds 
+  Import took 0.601040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Placed Cube.prefab
+  artifactKey: Guid(b34b6c8f1206a6844b983e23b9da0441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Placed Cube.prefab using Guid(b34b6c8f1206a6844b983e23b9da0441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81e34f3c71b60c552675172d6d3544e') in 0.016027 seconds 
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Point Cloud Debug Visualizer.prefab
+  artifactKey: Guid(0d4f49e744bffd14eb527ba76c9bba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Point Cloud Debug Visualizer.prefab using Guid(0d4f49e744bffd14eb527ba76c9bba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d0e7173ca00e31e5b5c9d66ff71c27') in 0.021232 seconds 
+  Import took 0.026513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/ARF-samples/Prefabs/Eye Pose Prefab.prefab
+  artifactKey: Guid(643bb4f9636444efebc65bc5ec614d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/Eye Pose Prefab.prefab using Guid(643bb4f9636444efebc65bc5ec614d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19310beb2a1aede85f645e41f2ec6a7') in 0.017106 seconds 
+  Import took 0.022099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Plane Debug Visualizer.prefab
+  artifactKey: Guid(f0e0be81472ff1243aa2afa27e5d0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Plane Debug Visualizer.prefab using Guid(f0e0be81472ff1243aa2afa27e5d0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c0b565e428bf5e0997fed18c1a018') in 0.016758 seconds 
+  Import took 0.023468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ARF-samples/Prefabs/CheckeredPlane.prefab
+  artifactKey: Guid(ff8f29ba6c29da34ebad74656b566a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/CheckeredPlane.prefab using Guid(ff8f29ba6c29da34ebad74656b566a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ce4600b5938be0f024dc59c63bb131') in 0.016814 seconds 
+  Import took 0.023951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ARF-samples/Prefabs/AR Point Cloud Visualizer.prefab
+  artifactKey: Guid(7f988301d22a4406da0408106c75d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/AR Point Cloud Visualizer.prefab using Guid(7f988301d22a4406da0408106c75d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37966de9e5fd1614a057ecfce610f175') in 0.020181 seconds 
+  Import took 0.026954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/ARF-samples/Prefabs/Eye Laser Prefab.prefab
+  artifactKey: Guid(73d46f3fb3c4d4f6d8e1b7f94cd0086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs/Eye Laser Prefab.prefab using Guid(73d46f3fb3c4d4f6d8e1b7f94cd0086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97682b3abb39ac45066c995b5350930e') in 0.014975 seconds 
+  Import took 0.020651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.133174 seconds.
+  path: Assets/ARF-samples/Prefabs
+  artifactKey: Guid(4b65ad133137edf4ab7f9b8ef7b9a46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARF-samples/Prefabs using Guid(4b65ad133137edf4ab7f9b8ef7b9a46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9488609ac245827831695098f341779') in 0.005442 seconds 
+  Import took 0.011409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1015.355186 seconds.
+  path: Assets/Scenes/MeasureTool.unity
+  artifactKey: Guid(465eeac831dbde44c8679fd8354900c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MeasureTool.unity using Guid(465eeac831dbde44c8679fd8354900c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be4b37ef6a027b4be59ef07a939d89e') in 0.006390 seconds 
+  Import took 0.014076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.194355 seconds.
+  path: Assets/Scenes/ARUI.unity
+  artifactKey: Guid(2785a403258a7854aae854443ae92cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ARUI.unity using Guid(2785a403258a7854aae854443ae92cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30037c16d00017951771c686ed9415d1') in 0.007243 seconds 
+  Import took 0.013186 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 4239.
+Total: 15.282200 ms (FindLiveObjects: 0.514500 ms CreateObjectMapping: 0.218600 ms MarkObjects: 14.291700 ms  DeleteObjects: 0.255800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2309.735333 seconds.
+  path: Assets/Scenes/BasicARScene.unity
+  artifactKey: Guid(755667cb9c211224c94d4c97a9f4ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BasicARScene.unity using Guid(755667cb9c211224c94d4c97a9f4ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38608045b2dd073fa50e421620f20b37') in 0.021356 seconds 
+  Import took 0.028479 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4239.
+Total: 6.492900 ms (FindLiveObjects: 0.433400 ms CreateObjectMapping: 0.295000 ms MarkObjects: 5.743200 ms  DeleteObjects: 0.020400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 273.367636 seconds.
+  path: Assets/Scenes/BasicARScene.unity
+  artifactKey: Guid(755667cb9c211224c94d4c97a9f4ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BasicARScene.unity using Guid(755667cb9c211224c94d4c97a9f4ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e63966e5e48c31df32922a32fc16956') in 0.009620 seconds 
+  Import took 0.017983 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
